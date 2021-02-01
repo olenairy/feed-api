@@ -13,6 +13,7 @@ RUN npm install
 
 # Copy app source
 COPY . .
+
 # build app
 RUN npm run tsc
 # Bind the port that the image will run on
